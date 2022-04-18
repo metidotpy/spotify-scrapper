@@ -13,7 +13,7 @@ name = input("enter your file name: ")
 url = input('enter playlists url: ')
 playlists = []
 
-driver = webdriver.Chrome("./chromedriver")
+driver = webdriver.Chrome(".\chromedriver.exe")
 try:
     driver.get(url)
     time.sleep(5)
